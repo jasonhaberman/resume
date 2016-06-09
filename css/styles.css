@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);
+body {
+    background: url("../img/noise.png");
+    font-family: 'PT serif',Georgia, Times, 'Times New Roman', serif;
+    font-size:16px;
+}
+h1, h2, h3, h4, h5 {
+
+    font-weight:700;
+}
+p, .row {
+    margin-bottom:25px;
+}
+.contact {
+    text-align: right;
+}
+.contact i {
+    font-size:22px;
+}
+.contact a {
+    display:inline-block;
+    margin:0 10px;
+}
+ul {
+    margin-bottom:30px;
+}
+ul.skills span {
+    font-weight: bold;
+}
+.push {
+    display: inline-block;
+    margin-left: 25px;
+}
+ul li {
+    margin: 8px 8px;
+}
+.well {
+    text-align:center;
+    font-size:.8em;
+}
+.well p {
+    margin-bottom:10px;
+}
+.well p span {
+    display:block;
+    font-weight:700;
+}
+.well ul {
+    margin-left:0;
+    padding-left:20%;
+
+}
+.well ul li {
+    text-align: left;
+}
+@media (max-width: 749px) {
+    .contact {
+        text-align:left;
+    }
+}
