@@ -21,6 +21,9 @@ p, .row {
     display:inline-block;
     margin:0 10px;
 }
+.contact a:last-of-type {
+    margin-right:0;
+}
 ul {
     margin-bottom:30px;
 }
@@ -57,4 +60,11 @@ ul li {
     .contact {
         text-align:left;
     }
+    .contact a {
+        margin-left:0;
+    }
+    .contact i {
+        font-size:30px;
+    }
+
 }
